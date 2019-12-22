@@ -165,8 +165,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c9beda531928fc40968802117a5d256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ApplyBeforeBody: 1
+  m_RecenterTarget: 0
   m_VerticalAxis:
     Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
@@ -190,6 +193,7 @@ MonoBehaviour:
     m_LegacyVelocityFilterStrength: -1
   m_HorizontalAxis:
     Value: 0
+    m_SpeedMode: 0
     m_MaxSpeed: 300
     m_AccelTime: 0.1
     m_DecelTime: 0.1
@@ -230,7 +234,7 @@ MonoBehaviour:
   m_YDamping: 0
   m_ZDamping: 0
   m_ScreenX: 0.375
-  m_ScreenY: 0.5
+  m_ScreenY: 0.66
   m_CameraDistance: 10
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
@@ -302,7 +306,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 927923602}
   m_Follow: {fileID: 927923602}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 36
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -324,7 +328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607161495}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2174395, y: 0, z: -10}
+  m_LocalPosition: {x: 1.3491094, y: 1.0397432, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 196789653}
@@ -566,7 +570,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 36
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -592,12 +596,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2174395, y: 0, z: -10}
+  m_LocalPosition: {x: 1.3491094, y: 1.0397432, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.806002, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -615,6 +619,7 @@ MonoBehaviour:
   m_IgnoreTimeScale: 0
   m_WorldUpOverride: {fileID: 0}
   m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
     m_Time: 2
